@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  /* limit width for the entire page */
+  .main {
+    margin: auto;
+    max-width: 800px;
+  }
+  /* highscore link and timer/score */
+  .header-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 15px;
+  }
+  /* highscore link */
+  #high {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eab0ff;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  /* quiz container */
+  .quiz {
+    display: flex;
+    margin: 8vh 20px 10px 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header {
+    margin: 0 0 15px 0;
+    text-align: center;
+  }
+  /*  correct/wrong stlye (border is controled in js) */
+  #result {
+    color: grey;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 75px;
+  }
+  /* all buttons and li(in quiz) style */
+  .btn {
+    color: white;
+    font-size: 16px;
+    background-color: darkblue;
+    padding: 10px 10px;
+    margin: 0px 15px 10px 0px;
+    border-radius: 7px;
+  }
+  .btn:hover {
+    background-color: #eab0ff;
+  }
+  /* posible answers style */
+  #Ol {
+    list-style-type: none;
+  }
+  #Ol li {
+    font-size: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  /* submit initails styling */
+  #form::before {
+    content: "Enter your initials : ";
+  }
+  #formButton {
+    padding: 3px 10px;
+  }
+  /* highscore page stlye */
+  .high-header {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .highscore-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  /* highscore list style */
+  .order {
+    margin: 10px 10px 0 10px;
+    list-style: none;
+  }
+  .order li {
+    background-color: rgb(115, 155, 180);
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+  }
+  
+  /*  high score buttons*/
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
